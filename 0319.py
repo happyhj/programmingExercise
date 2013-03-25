@@ -73,7 +73,7 @@ def countE(message) :
 	return numOfE
 
 print '\n# exercise 5'
-print 'Number of \'e\' in \'', message,'\' is', countE(string)
+print 'Number of \'e\' in \'', message,'\' is', countE(message)
 
 # exercise 6
 
