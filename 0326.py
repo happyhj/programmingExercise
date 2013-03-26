@@ -21,7 +21,7 @@ for key_name in age :
 		result[key_ageGap] = [key_name]
 
 print result 	
-
+# {40: ['minsu'], 20: ['ronaldo', 'john'], 30: ['messi', 'david', 'jisu', 'hary']}
 
 ## Print, sort by age
 
@@ -31,3 +31,5 @@ keylist.sort()
 for ageGap in keylist :
 	print ageGap,
 	print result[ageGap],
+
+# 20 ['ronaldo', 'john'] 30 ['messi', 'david', 'jisu', 'hary'] 40 ['minsu']
